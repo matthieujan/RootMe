@@ -1,10 +1,7 @@
 <?php
 
 $lang = array (
-            'lang' => 'Test',
+            'lang' => file_get_centents('index.php'),
             'welcome' => 'Bienvenue sur notre nouveau site web !',
         );
-ob_start();
-include 'index.php';
-ob_end_clean();
 ?>
