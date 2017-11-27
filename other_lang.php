@@ -1,7 +1,7 @@
 <?php
 
 $lang = array (
-            'lang' => 'php://filter/convert.base64-encode/resource=index.php',
+            'lang' => addslashes(include 'index.php'),
             'welcome' => 'Bienvenue sur notre nouveau site web !',
         );
 ?>
