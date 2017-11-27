@@ -1,7 +1,7 @@
 <?php
 
 $lang = array (
-            'lang' => file_get_centents('index.php'),
+            'lang' => file_get_contents('index.php'),
             'welcome' => 'Bienvenue sur notre nouveau site web !',
         );
 ?>
